@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkdin</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav class="navbar">
+
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="images/logo.png"></a>
+        <div class="search-box">
+            <input type="text" placeholder="search">
+        </div>
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="images/home.png" alt=""><span>Home</span></a></li>
+            <li><a href="#"><img src="images/network.png" alt=""><span>My Network</span></a></li>
+            <li><a href="#"><img src="images/jobs.png" alt=""><span>Jobs</span></a></li>
+            <li><a href="#"><img src="images/message.png" alt=""><span>Messaging</span></a></li>
+            <li><a href="#"><img src="images/notification.png" alt=""><span>Notification</span></a></li>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <div class="online">
+            <img src="images/user-1.png" class="nav-profile-img" onclick="togglemenu()">
+        </div>
+    </div>
+
+<!-- profile menu drop -->
+<div class="profile-menu-wrap" id="profilemenu" onmouseleave="removetogglemenu()">
+   <div class="profile-color">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="images/user-1.png">
+                <div>
+                    <h3>Anurag singh</h3>
+                    <a href="profile.html">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="profile-menu-link">
+                <img src="images/feedback.png">
+                <p>Give Feedback</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/setting.png">
+                <p>Setting & privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/help.png">
+                <p>Help & support</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/display.png">
+                <p>Display & accessibility</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/logout.png">
+                <p>Logout</p>
+                <span>></span>
+            </a>
+        </div>
+   </div>
+</div>
+
+
+
+</nav>
+
+<!-- ----------------navbar closed---------------- -->
+
+
+<div class="container">
+    <div class="profile-main">
+        <div class="profile-container">
+            <img src="images/cover-pic.png" width="100%">
+            <div class="profile-container-inner">
+                <img src="images/user-1.png" class="profile-pic">
+                <h1>Anurag Singh</h1>
+                <b>Web developer | front-end developer</b>
+                <p>Madhya pradesh ,India <a href="#">Contact info</a></p>
+                <div class="mutual-connection">
+                    <img src="images/user-2.png">
+                    <span>1 Mutual connection:Krishna mohan</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                    <a href="#"><img src="images/chat.png">Message</a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>About</h2>
+            <p>hello , I am front-end developer with masterised in css html and javascript</p>
+            <a href="#" class="see-more">See more...</a>
+        </div>
+
+        <div class="profile-description">
+            <h2>Experiences</h2>
+            <div class="profile-desc-row">
+                <img src="images/microsoft.png">
+                <div>
+                    <h3>Lead front-end developer</h3>
+                    <b>Microsoft ; full-time</b>
+                    <b>feb 2023 - present 2023</b>
+                    <p>coading while using css javascript and html including bootstrap framework and html5 and css3 frameworks.</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="images/slack.png">
+                <div>
+                    <h3>full stack developer</h3>
+                    <b>Slack ; Interned</b>
+                    <b>for 3 months</b>
+                    <p>Did the mastery in css and html with the professional tutors at the slack and found very good place for the web developers for thier first time intern.</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="images/google.png">
+                <div>
+                    <h3>web developer</h3>
+                    <b>Google ; Interned</b>
+                    <b>for 5 months</b>
+                    <p>coading while using css javascript and html including bootstrap framework and html5 and css3 frameworks</p>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="experience-link">Show all ? experiences <img src="images/right-arrow.png"></a>
+        </div>
+
+        <div class="profile-description">
+            <h2>Education</h2>
+            <div class="profile-desc-row">
+                <img src="images/stanford.png">
+                <div>
+                    <h3>Stanford university</h3>
+                    <b>HTML & HTML5</b>
+                    <b style="margin-bottom: 5px;">4 Months</b>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="images/north.png">
+                <div>
+                    <h3>Northen university</h3>
+                    <b>CSS & Bootstrap</b>
+                    <b style="margin-bottom: 5px;">3 Months</b>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="images/mit.png">
+                <div>
+                    <h3>MIT</h3>
+                    <b>Bootcamp of javascript</b>
+                    <b>5 Days</b>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-description">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">CSS</a>
+            <a href="#" class="skills-btn">HTML</a>
+            <a href="#" class="skills-btn">JAVASCRIPT</a>
+            <a href="#" class="skills-btn">BOOTSTRAP</a>
+            <a href="#" class="skills-btn">PHP</a>
+            <a href="#" class="skills-btn">MYSQL</a>
+            <a href="#" class="skills-btn">PYTHON</a>
+            <a href="#" class="skills-btn">BOOTSTRAP</a>
+        </div>
+        <div class="profile-description">
+            <h2>Languages</h2>
+            <a href="#" class="lang-btn">English</a>
+            <a href="#" class="lang-btn">Hindi</a>
+            <a href="#" class="lang-btn">Hinglish</a>
+        </div>
+    </div>
+
+    <!-- ---------------------------left sidebar end----------------------- -->
+
+
+    <div class="profile-sidebar">
+        <div class="sidebar-add">
+            <b>Ad....</b>
+            <center>
+                <p>Master the 5 principles of web WebDesign</p>
+                <div class="addpic">
+                    <img src="images/user-1.png" alt="">
+                    <img src="images/mi-logo.png" alt="">
+                </div>
+                <p>Brand and Demand in Xiaome</p>
+
+                <button>Learn More</button>
+            </center>
+        </div>
+
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-2.png">
+                <div>
+                    <h2>krishna mohan</h2>
+                    <p>Head of marketing at Medical tech</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+
+             <div class="sidebar-people-row">
+                <img src="images/user-3.png">
+                <div>
+                    <h2>Kundan kumar</h2>
+                    <p>Head at Trica</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+
+             <div class="sidebar-people-row">
+                <img src="images/user-4.png">
+                <div>
+                    <h2>Gaurav aske</h2>
+                    <p>Chief of affilating market</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+
+             <div class="sidebar-people-row">
+                <img src="images/user-5.png">
+                <div>
+                    <h2>Akshay</h2>
+                    <p>Self emplyoyed</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="profile-footer">
+    <div class="copyright-text">
+        <a href="#">About</a>
+        <a href="#">Accessiby</a>
+        <a href="#">Help Center </a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+            <img src="images/logo.png" alt="">
+            <p>Linkedup &copy; 2022. All right reserved</p>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var profilemenu=document.getElementById('profilemenu')
+    function togglemenu(){
+        profilemenu.style.display="block";
+    }
+    function removetogglemenu(){
+        profilemenu.style.display="none";
+    }
+</script>
+</html>
